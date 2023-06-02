@@ -1,3 +1,35 @@
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.factorypath
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
 # Created by https://www.gitignore.io/api/java,gradle,intellij
 # Edit at https://www.gitignore.io/?templates=java,gradle,intellij
 
@@ -53,9 +85,9 @@ cmake-build-*/
 out/
 
 # Maven
-target/
 **/log/
 **/target/
+target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -143,5 +175,21 @@ gradle-app.setting
 
 ### Gradle Patch ###
 **/build/
+
+# eclipse specific
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
 
 # End of https://www.gitignore.io/api/java,gradle,intellij
